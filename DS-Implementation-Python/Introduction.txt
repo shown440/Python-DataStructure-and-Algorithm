@@ -1,0 +1,1 @@
+Here I'll try to implements data structure of Python
