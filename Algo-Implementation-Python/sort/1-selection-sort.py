@@ -14,7 +14,7 @@ def selection_sort(myList, length_of_myList):
 
     return print("Selection sorted list: ", myList)
 
-# Call Binary Search Function
+# Call selection sort Function
 myList = [3,44,38,5,15,26,27,2,46,4]
 # myList = range(9)
 selection_sort(myList, len(myList))

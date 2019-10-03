@@ -1,5 +1,5 @@
 
-def selection_sort(myList, length_of_myList):
+def bubble_sort(myList, length_of_myList):
 
     for i in range(0, length_of_myList, 1):
 
@@ -12,7 +12,7 @@ def selection_sort(myList, length_of_myList):
 
     return print("Bubble sorted list: ", myList)
 
-# Call Binary Search Function
+# Call bubble sort Function
 myList = [3,44,38,5,47,15,36,26,27,2]
 # myList = range(9)
-selection_sort(myList, len(myList))
+bubble_sort(myList, len(myList))
